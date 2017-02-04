@@ -1,0 +1,54 @@
+---
+title: "Historia Académica"
+author: "Marco Antonio Paulino Peralta"
+date: "4 de febrero de 2017"
+output: html_document
+---
+
+
+### Otoño 2014
+
+- Programación actuarial I...................6
+- Introdrucción a la profesión actuarial ....9
+- DHPC.......................................9
+- Conceptos de cálculo.......................9
+- Matemáticas básicas........................6
+- Problemas de matemáticas básicas...........6
+
+### Primavera 2015
+
+- Teoría del interés I.......................7
+- Microeconomía..............................9
+- Lengua extranjera I........................8
+- Cálculo diferencial........................9
+- Geometría analítica........................9
+- Teoría de ecuaciones.......................7
+
+### Otoño 2015
+
+- Teoría del interés II......................9
+- Contabilidad general......................10
+- Macroeconomía..............................7
+- Formación humana y social..................9
+- Cálculo integral...........................6
+- Álgebra lineal.............................5
+
+### Primavera 2016
+
+- Programación actuarial II..................8
+- Sistema financiero mexicano...............10
+- Reg. acad. y cient. del esp...............10
+- Cál. difer. en varias variables............5
+- Álgebra lineal............................10
+- Probabilidad I.............................5
+
+### Otoño 2016
+
+- Derivados financieros......................5
+- DHTIC.....................................10
+- Cal. difer. en varias variables............7
+- Ecuaciones diferenciales...................8
+- Intr. a las estr. algebraicas..............7
+- Probabilidad I.............................8
+
+
