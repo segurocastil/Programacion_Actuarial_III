@@ -6,7 +6,7 @@ corr <- function (directorio, horizonte = 0) {
     y <- vector("numeric")
     
     for(i in 1:332){
-        #lectura de Datos
+        
         if (i<10) {
             tabla <- read.csv(paste("00", i, ".csv", sep=""))
         }else if(i>=10 && i<100 ) {
@@ -18,7 +18,7 @@ corr <- function (directorio, horizonte = 0) {
         completos <- complete.cases(tabla)
         z <- tabla[completos, ]
         nf <- nrow(z)
-        #restriccion de horizonte
+        
         if (nf>=horizonte) {
             y <-  cor(z[2],z[3])
             y2<-as.vector(y)
@@ -29,4 +29,4 @@ corr <- function (directorio, horizonte = 0) {
     
     x
 }
-x
+corr(,20)
