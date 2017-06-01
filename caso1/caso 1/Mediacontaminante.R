@@ -18,7 +18,7 @@ mediacontaminante <- function(directorio,contaminante,id=1:332){
                 } 
             }
         
-        y <- read.csv(id2[i])
+        y <- read.csv(id2[i]) ##lee y crea un data frame
         z <- cbind(y[,contaminante])
         
         x2 <- rbind(x2,z)
@@ -30,4 +30,4 @@ mediacontaminante <- function(directorio,contaminante,id=1:332){
 }
 
 
-mediacontaminante("specdata","sulfate",70:72)
+mediacontaminante("specdata","sulfate",50:70)

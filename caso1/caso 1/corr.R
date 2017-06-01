@@ -19,7 +19,8 @@ corr <- function (directorio, horizonte = 0) {
         z <- tabla[completos, ]
         nf <- nrow(z)
         #restriccion de horizonte
-        if (nf>=horizonte) {
+        
+        if (nf>horizonte) {
             y <-  cor(z[2],z[3])
             y2<-as.vector(y)
             x <- c(x,y2)
@@ -29,4 +30,4 @@ corr <- function (directorio, horizonte = 0) {
     
     x
 }
-x
+corr("specdata",45)
